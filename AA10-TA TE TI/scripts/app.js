@@ -41,15 +41,16 @@ function verificar() {
     }
   }
   if (tablero.indexOf("") == -1 && !ganador) {
-    document.getElementById("mensaje").innerHTML = "El juego ha terminado en empate";
+    document.getElementById("mensaje").innerHTML =
+      "El juego ha terminado en empate";
     ganador = true;
   }
 }
 
 function pintar(a, b, c) {
-  document.getElementById("celda_" + a).style.backgroundColor = "green";
-  document.getElementById("celda_" + b).style.backgroundColor = "green";
-  document.getElementById("celda_" + c).style.backgroundColor = "green";
+  document.getElementById("celda_" + a).style.backgroundColor = "red";
+  document.getElementById("celda_" + b).style.backgroundColor = "red";
+  document.getElementById("celda_" + c).style.backgroundColor = "red";
 }
 
 function reiniciar() {
