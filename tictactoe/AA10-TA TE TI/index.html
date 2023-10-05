@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/estilos.css">
+  <title>tateti</title>
+</head>
+
+<body>
+  <h1>Juego de Tateti</h1>
+  <p id="mensaje">Turno del jugador X</p>
+  <table>
+    <tr>
+      <td id="celda_0" onclick="marcar(0)"></td>
+      <td id="celda_1" onclick="marcar(1)"></td>
+      <td id="celda_2" onclick="marcar(2)"></td>
+    </tr>
+    <tr>
+      <td id="celda_3" onclick="marcar(3)"></td>
+      <td id="celda_4" onclick="marcar(4)"></td>
+      <td id="celda_5" onclick="marcar(5)"></td>
+    </tr>
+    <tr>
+      <td id="celda_6" onclick="marcar(6)"></td>
+      <td id="celda_7" onclick="marcar(7)"></td>
+      <td id="celda_8" onclick="marcar(8)"></td>
+    </tr>
+  </table>
+  <button class="reiniciar" onclick="reiniciar()">Reiniciar juego</button>
+  <script src="scripts/app.js"></script>
+</body>
+
+</html>
