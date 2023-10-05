@@ -48,9 +48,12 @@ function verificar() {
 }
 
 function pintar(a, b, c) {
-  document.getElementById("celda_" + a).style.backgroundColor = "red";
-  document.getElementById("celda_" + b).style.backgroundColor = "red";
-  document.getElementById("celda_" + c).style.backgroundColor = "red";
+  document.getElementById("celda_" + a).style.backgroundColor = "
+#96ccd8";
+  document.getElementById("celda_" + b).style.backgroundColor = "
+#96ccd8";
+  document.getElementById("celda_" + c).style.backgroundColor = "
+#96ccd8";
 }
 
 function reiniciar() {
